@@ -3,10 +3,28 @@
         display: inline-block;
         padding: 10px;
         &__bling {
-            display: inline-flex;
-            flex-direction: column;
-            padding: 5px;
-            border: 1px solid pink;
+            background-color: pink;
+            &__header {
+                display: flex;
+                h3 {
+                    padding: 10px;
+                    width: 12vw;
+                }
+            }
+            &__item {
+                display: flex;
+                padding: 10px 0px;
+                align-items: center;
+                border: 1px solid yellow;
+                span {
+                    padding: 10px;
+                    width: 12vw;
+                }
+                button {
+                    width: 8vw;
+                    margin-left: 10px;
+                }
+            }
         }
     }
 }
